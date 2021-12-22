@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YYMediator_Example' do
+  pod 'YYMediator', :path => '../'
+
+  target 'YYMediator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

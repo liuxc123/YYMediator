@@ -40,13 +40,11 @@ typedef void (^YYUrlRouterCallbackBlock)(NSDictionary *info);
     return nil;
 }
 
-//- (UIViewController *)Action_TargetAViewController:(NSDictionary *)params
-//{
-//    TargetAViewController *vc = [[TargetAViewController alloc] init];
-//    vc.title = params[@"title"];
-//    return vc;
-//}
-
-
+- (UIViewController *)Action_TargetAViewController:(NSDictionary *)params
+{
+    TargetAViewController *vc = [[TargetAViewController alloc] init];
+    vc.title = params[@"title"];
+    return vc;
+}
 
 @end

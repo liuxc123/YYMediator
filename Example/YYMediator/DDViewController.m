@@ -8,14 +8,6 @@
 
 #import "DDViewController.h"
 
-@interface DDViewController2 : UIViewController
-
-@end
-
-@implementation DDViewController2
-
-@end
-
 @interface DDViewController ()
 
 @end

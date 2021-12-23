@@ -81,6 +81,8 @@ NSString * const kYYMediatorParamsKeyCompletion             = @"kYYMediatorParam
             return [self performTarget:targetName action:actionName params:parameters shouldCacheTarget:NO];
         }
     }
+    
+    [self NoTargetActionResponseWithURL:URL originParams:parameters];
     return nil;
 }
 
@@ -195,6 +197,18 @@ NSString * const kYYMediatorParamsKeyCompletion             = @"kYYMediatorParam
 }
 
 #pragma mark - private methods
+
+- (void)NoTargetActionResponseWithURL:(NSString *)url originParams:(NSDictionary *)originParams
+{
+    SEL action = NSSelectorFromString(@"Action_urlResponse:");
+    NSObject *target = [[NSClassFromString(@"Target_NoTargetAction") alloc] init];
+    
+    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+    params[@"originParams"] = originParams;
+    params[@"url"] = url;
+
+    [self safePerformAction:action target:target params:params];
+}
 
 - (void)NoTargetActionResponseWithTargetString:(NSString *)targetString selectorString:(NSString *)selectorString originParams:(NSDictionary *)originParams
 {

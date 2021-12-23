@@ -27,6 +27,7 @@
 		F17CC1EF27731D6D00BCE6F9 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = F17CC1EE27731D6D00BCE6F9 /* Target_A.m */; };
 		F17CC1F227731E6B00BCE6F9 /* YYMediator+TargetAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F17CC1F127731E6B00BCE6F9 /* YYMediator+TargetAModule.m */; };
 		F17CC21527746CD100BCE6F9 /* TargetAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17CC21427746CD100BCE6F9 /* TargetAViewController.m */; };
+		F17CC21B27747BF600BCE6F9 /* Target_NoTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F17CC21A27747BF600BCE6F9 /* Target_NoTargetAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		F17CC1F127731E6B00BCE6F9 /* YYMediator+TargetAModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YYMediator+TargetAModule.m"; sourceTree = "<group>"; };
 		F17CC21327746CD100BCE6F9 /* TargetAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetAViewController.h; sourceTree = "<group>"; };
 		F17CC21427746CD100BCE6F9 /* TargetAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetAViewController.m; sourceTree = "<group>"; };
+		F17CC21927747BF600BCE6F9 /* Target_NoTargetAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_NoTargetAction.h; sourceTree = "<group>"; };
+		F17CC21A27747BF600BCE6F9 /* Target_NoTargetAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_NoTargetAction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +218,8 @@
 				F17CC1F127731E6B00BCE6F9 /* YYMediator+TargetAModule.m */,
 				F17CC21327746CD100BCE6F9 /* TargetAViewController.h */,
 				F17CC21427746CD100BCE6F9 /* TargetAViewController.m */,
+				F17CC21927747BF600BCE6F9 /* Target_NoTargetAction.h */,
+				F17CC21A27747BF600BCE6F9 /* Target_NoTargetAction.m */,
 			);
 			path = TargetAModule;
 			sourceTree = "<group>";
@@ -389,6 +394,7 @@
 			files = (
 				F17CC1EF27731D6D00BCE6F9 /* Target_A.m in Sources */,
 				6003F59E195388D20070C39A /* DDAppDelegate.m in Sources */,
+				F17CC21B27747BF600BCE6F9 /* Target_NoTargetAction.m in Sources */,
 				6003F5A7195388D20070C39A /* DDViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				F17CC1F227731E6B00BCE6F9 /* YYMediator+TargetAModule.m in Sources */,

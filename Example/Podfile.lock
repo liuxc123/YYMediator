@@ -1,0 +1,16 @@
+PODS:
+  - YYMediator (1.0.0)
+
+DEPENDENCIES:
+  - YYMediator (from `../`)
+
+EXTERNAL SOURCES:
+  YYMediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YYMediator: 9f6c9e5c1bb30e2c83ac6050bbd68cc751aad7c8
+
+PODFILE CHECKSUM: 7ed3a63ce10110902242b2ee792eaf0b4a5daf83
+
+COCOAPODS: 1.11.2

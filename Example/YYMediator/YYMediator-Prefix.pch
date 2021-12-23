@@ -13,4 +13,7 @@
 #ifdef __OBJC__
     @import UIKit;
     @import Foundation;
+#import <YYMediator/YYMediator.h>
+#import <YYMediator/YYMediator+Navigation.h>
+#import "YYMediator+TargetAModule.h"
 #endif

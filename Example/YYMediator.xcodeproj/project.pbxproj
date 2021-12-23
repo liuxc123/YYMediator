@@ -24,6 +24,9 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7CEABDDB2931CCB65F4EAEB8 /* Pods_YYMediator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBBBD7EB80FD7E921B892BF /* Pods_YYMediator_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		F17CC1EF27731D6D00BCE6F9 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = F17CC1EE27731D6D00BCE6F9 /* Target_A.m */; };
+		F17CC1F227731E6B00BCE6F9 /* YYMediator+TargetAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F17CC1F127731E6B00BCE6F9 /* YYMediator+TargetAModule.m */; };
+		F17CC21527746CD100BCE6F9 /* TargetAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17CC21427746CD100BCE6F9 /* TargetAViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03DD96CC8A0E38D0D022C180 /* YYMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YYMediator.podspec; path = ../YYMediator.podspec; sourceTree = "<group>"; };
+		03DD96CC8A0E38D0D022C180 /* YYMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YYMediator.podspec; path = ../YYMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1EBBBD7EB80FD7E921B892BF /* Pods_YYMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		45AE34BEA5453BF82EB9DB1D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		45AE34BEA5453BF82EB9DB1D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		594334CAC548D8E8F87D358C /* Pods-YYMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYMediator_Tests.release.xcconfig"; path = "Target Support Files/Pods-YYMediator_Tests/Pods-YYMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YYMediator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYMediator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +67,15 @@
 		739FD0C03341335DF6ABEB16 /* Pods-YYMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYMediator_Example.release.xcconfig"; path = "Target Support Files/Pods-YYMediator_Example/Pods-YYMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7CAEAF74869C9789CF1314B1 /* Pods-YYMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYMediator_Example.debug.xcconfig"; path = "Target Support Files/Pods-YYMediator_Example/Pods-YYMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C5F534DED9263783101BC694 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C5F534DED9263783101BC694 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C6EE963B635E7EB2F4554F84 /* Pods_YYMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FD7C31C5186CA492E75DA3 /* Pods-YYMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYMediator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YYMediator_Tests/Pods-YYMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F17CC1ED27731D6D00BCE6F9 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		F17CC1EE27731D6D00BCE6F9 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		F17CC1F027731E6B00BCE6F9 /* YYMediator+TargetAModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYMediator+TargetAModule.h"; sourceTree = "<group>"; };
+		F17CC1F127731E6B00BCE6F9 /* YYMediator+TargetAModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YYMediator+TargetAModule.m"; sourceTree = "<group>"; };
+		F17CC21327746CD100BCE6F9 /* TargetAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetAViewController.h; sourceTree = "<group>"; };
+		F17CC21427746CD100BCE6F9 /* TargetAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetAViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +112,6 @@
 				E8FD7C31C5186CA492E75DA3 /* Pods-YYMediator_Tests.debug.xcconfig */,
 				594334CAC548D8E8F87D358C /* Pods-YYMediator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +152,7 @@
 		6003F593195388D20070C39A /* Example for YYMediator */ = {
 			isa = PBXGroup;
 			children = (
+				F17CC1EC27731D5500BCE6F9 /* TargetAModule */,
 				6003F59C195388D20070C39A /* DDAppDelegate.h */,
 				6003F59D195388D20070C39A /* DDAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -195,6 +204,19 @@
 				45AE34BEA5453BF82EB9DB1D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		F17CC1EC27731D5500BCE6F9 /* TargetAModule */ = {
+			isa = PBXGroup;
+			children = (
+				F17CC1ED27731D6D00BCE6F9 /* Target_A.h */,
+				F17CC1EE27731D6D00BCE6F9 /* Target_A.m */,
+				F17CC1F027731E6B00BCE6F9 /* YYMediator+TargetAModule.h */,
+				F17CC1F127731E6B00BCE6F9 /* YYMediator+TargetAModule.m */,
+				F17CC21327746CD100BCE6F9 /* TargetAViewController.h */,
+				F17CC21427746CD100BCE6F9 /* TargetAViewController.m */,
+			);
+			path = TargetAModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +280,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,9 +387,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17CC1EF27731D6D00BCE6F9 /* Target_A.m in Sources */,
 				6003F59E195388D20070C39A /* DDAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DDViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				F17CC1F227731E6B00BCE6F9 /* YYMediator+TargetAModule.m in Sources */,
+				F17CC21527746CD100BCE6F9 /* TargetAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

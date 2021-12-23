@@ -1,0 +1,6 @@
+framework module YYMediator {
+  umbrella header "YYMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}
